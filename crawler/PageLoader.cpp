@@ -20,7 +20,7 @@ void Load(const string link) {
 
     //setting options
     curl_easy_setopt(curl, CURLOPT_URL, link.c_str()); //for getting "html code"
-    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1 L);
+    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
     //	curl_easy_setopt(curl, CURLOPT_HEADER, 1L); //for getting metadata
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, cb); //for callback 
 
