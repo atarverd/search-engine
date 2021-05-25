@@ -1,5 +1,6 @@
 #ifndef pl_hpp
-#define pl_hpp#include <iostream>
+#define pl_hpp
+#include <iostream>
 
 #include <curl/curl.h>
 
