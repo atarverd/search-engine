@@ -1,4 +1,16 @@
 # search-engine
 Parsing links and img sources with alternate attribute
 
-g++ main.cpp PageLoader.cpp pl.hpp GetDomain.cpp parser/parser.cpp parser/parser.hpp -lcurl -lhtmlcxx -lboost_regex
+Run
+    chmod +x ./run.sh
+    ./run.sh
+
+Requirements 
+    libcurl
+    libhtmlcxx-dev
+    libboost-all-dev
+    python
+    pip install django
+    pip install django-admin
+    
+    
